@@ -1,4 +1,5 @@
 #include <array>
+#include <string>
 #include "DrawingWindow.h"
 // On some platforms you may need to include <cstring> (if you compiler can't find memset !)
 

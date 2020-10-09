@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 class DrawingWindow {
 
@@ -17,7 +17,7 @@ private:
 	SDL_Texture *texture;
 	std::vector<uint32_t> pixelBuffer;
 
-public:
+public:	
 	DrawingWindow();
 	DrawingWindow(int w, int h, bool fullscreen);
 	void renderFrame();
